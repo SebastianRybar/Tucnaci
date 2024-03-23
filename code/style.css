@@ -1,11 +1,25 @@
+body{
+    background-color: aqua;
+}
+
 header[title=záhlaví]{
     background-image: url(https://autorskesperky.com/img/cms/tucnak-1.jpg);
     display: flex;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    width: 500px;
-    height: 500px;
+    width: 1500px;
+    height: 750px;
+}
+
+header[title=záhlaví2]{
+    background-image: url(https://autorskesperky.com/img/cms/tucnak-1.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 1500px;
+    height: 750px;
 }
 
 img {
@@ -14,10 +28,45 @@ img {
 }
 
 h1{
+    font-size: 75px;
     padding-right: 200px;
     color: blue;
 }
 
+h2{
+    font-size: 50px;
+    color: rgb(255, 0, 200);
+    text-align: center;
+}
+
+
+p[id=svět]{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
 p{
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+     text-align: center;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:focus{
+    color: brown ;
+}
+
+a:link{
+    color: violet;
+}
+
+a:hover{
+    color: coral;
+}
+
+li{
+    list-style-type: upper-roman;
 }
